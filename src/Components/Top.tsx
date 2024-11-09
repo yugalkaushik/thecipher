@@ -37,29 +37,28 @@ const Top = () => {
     <div className=" text-black/90 font-Helvetica text-xs flex flex-row justify-between items-center">
       <div className=" flex flex-col items-start">
         <span className=" text-black/75 text-base font-semibold hover:underline cursor-pointer">
-          thedailycrimes@gmail.com
+          thecipher@gmail.com
         </span>
         <div className=" text-sm flex flex-wrap gap-1">
           <div className=" flex gap-0.5 hover:font-semibold cursor-pointer  items-center">
             <FaTwitterSquare />
-            thedailycrimes
+            thecipher
           </div>
           <div className=" flex gap-0.5 hover:font-semibold cursor-pointer  items-center">
             <FaSquareFacebook />
-            dailycrimes
+            thecipher
           </div>
           <div className=" flex gap-0.5 hover:font-semibold cursor-pointer  items-center">
             <FaInstagramSquare />
-            daily_crimes
+            thecipher
           </div>
           <div className=" flex gap-0.5 hover:font-semibold cursor-pointer  items-center">
             <IoGlobeSharp />
-            thedailycrimes.com
+            thecipher.com
           </div>
         </div>
         <span>
-          PN-6, Thane - Belapur Rd, Digha Naka, Subhash Nagar, Dighe, Navi
-          Mumbai, Maharashtra 400708
+        PN-6, Najafgarh Road, Gopal Nagar, Najafgarh, New Delhi, Delhi 110043
         </span>
       </div>
       <div className=" flex flex-col items-end">

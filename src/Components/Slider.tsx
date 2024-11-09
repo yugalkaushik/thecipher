@@ -3,7 +3,7 @@ const Slider = () => {
     <div className=" marquee-container">
       <div className="marquee">
         Let's Create Something Together{" "}
-        <a href="mailto:therinkit@gmail.com">Email ME</a>.
+        <a href="mailto:yugalkaushik14@gmail.com">Email ME</a>.
       </div>
     </div>
   )
