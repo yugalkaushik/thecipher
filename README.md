@@ -7,9 +7,7 @@
 ## Features
 
 - **Vintage Newspaper UI**: Experience a retro look with fonts, layout, and styles reminiscent of the 90s.
-- **Responsive Design**: Classic newspaper layout adapts seamlessly to different screen sizes.
 - **Modern Tech Stack**: Developed with Next.js, React, and TypeScript for a clean, maintainable codebase.
-- **Dynamic Content Sections**: Includes sections for headlines, featured articles, and "throwback" ads.
 
 ## Tech Stack
 
