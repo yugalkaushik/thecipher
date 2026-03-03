@@ -34,8 +34,8 @@ const Top = () => {
     "December",
   ]
   return (
-    <div className=" text-black/90 font-Helvetica text-xs flex flex-row justify-between items-center">
-      <div className=" flex flex-col items-start">
+    <div className="text-black/90 font-Helvetica text-xs flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 pb-2">
+      <div className="flex flex-col items-start">
         <span className=" text-black/75 text-base font-semibold hover:underline cursor-pointer">
           thecipher@gmail.com
         </span>
@@ -58,10 +58,10 @@ const Top = () => {
           </div>
         </div>
         <span>
-        PN-6, Najafgarh Road, Gopal Nagar, Najafgarh, New Delhi, Delhi 110043
+          PN-6, Najafgarh Road, Gopal Nagar, Najafgarh, New Delhi, Delhi 110043
         </span>
       </div>
-      <div className=" flex flex-col items-end">
+      <div className="flex flex-col sm:items-end">
         <span className=" text-black/75  font-semibold text-sm">
           New Delhi, India
         </span>
