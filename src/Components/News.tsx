@@ -7,7 +7,7 @@ const News = () => {
       <News1 />
       <hr className="border-t-2  border-zinc-800" />
       <div className=" flex items-center">
-        <div className=" text-9xl  font-Canopee text-center bg-zinc-800 w-full my-10 text-[#E9E4DB] p-2">
+        <div className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-Canopee text-center bg-zinc-800 w-full my-6 md:my-10 text-[#E9E4DB] p-2">
           <p>Are We Truly Safe from Crime?</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const News = () => {
           <hr className="border-t-[5px] border-black/85" />
           <hr className="border-t-[2px] border-black/90" />
         </div>
-        <span className="mx-2 text-7xl font-OldLondon  ">The End</span>
+        <span className="mx-2 text-4xl md:text-7xl font-OldLondon">The End</span>
 
         <div className="flex-grow space-y-0.5">
           <hr className="border-t-[5px] border-black/85" />
