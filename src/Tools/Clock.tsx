@@ -1,3 +1,4 @@
+// Clock.tsx — live digital clock updated every second
 import React, { useState, useEffect } from "react"
 
 const Clock: React.FC = () => {
