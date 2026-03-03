@@ -1,3 +1,4 @@
+// Slider.tsx — infinite scrolling marquee banner in the footer
 const Slider = () => {
   return (
     <div className=" marquee-container">
