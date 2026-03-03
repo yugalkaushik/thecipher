@@ -1,4 +1,5 @@
 {
+  // TypeScript config for the React app source (src/)
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
