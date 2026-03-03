@@ -1,4 +1,4 @@
-import js from '@eslint/js'
+// ESLint config \u2014 TypeScript + React Hooks + React Refresh rules\nimport js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
