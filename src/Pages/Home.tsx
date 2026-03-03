@@ -1,3 +1,4 @@
+// Home.tsx — main page layout: header bar, masthead, news sections, footer
 import Head from "../Components/Head"
 import News from "../Components/News"
 import Top from "../Components/Top"
