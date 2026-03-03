@@ -6,7 +6,7 @@ const Head = () => {
           <hr className="border-t-[5px] border-black/85" />
           <hr className="border-t-[2px] border-black/90" />
         </div>
-        <span className="mx-2 text-5xl font-OldLondon  text-themeOrange">
+        <span className="mx-2 text-3xl md:text-5xl font-OldLondon text-themeOrange">
           the
         </span>
 
@@ -15,11 +15,11 @@ const Head = () => {
           <hr className="border-t-[2px] border-black/90" />
         </div>
       </div>
-      <div className="flex flex-col gap-1 items-center pb-6">
-        <div className=" text-8xl font-semibold font-OldLondon text-black/90">
+      <div className="flex flex-col gap-1 items-center pb-4 md:pb-6">
+        <div className="text-5xl sm:text-7xl md:text-8xl font-semibold font-OldLondon text-black/90">
           Cipher
         </div>
-        <div className=" font-EditorialNew  ">
+        <div className="font-EditorialNew text-xs sm:text-sm md:text-base text-center px-2">
           Unfolding the Stories & Showcasing the Reality of this Country
         </div>
       </div>
