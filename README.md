@@ -1,40 +1,33 @@
-# *TheCipher* 📰
+# The Cipher
 
-![Preview of TheCipher](public/preview.png)
-
-**TheCipher** is a nostalgic, front-end web application that emulates the look and feel of a 90s-era newspaper. Built with TypeScript, this project revives the vintage charm of print media with a classic UI, perfect for displaying articles, stories, or custom content in an old-school aesthetic.
-
-## Features
-
-- **Vintage Newspaper UI**: Experience a retro look with fonts, layout, and styles reminiscent of the 90s.
-- **Modern Tech Stack**: Developed with Next.js, React, and TypeScript for a clean, maintainable codebase.
+Built a newspaper-style editorial web app with React 18 and TypeScript on a Vite build pipeline. Designed a fully responsive multi-column article layout using Tailwind CSS utility classes with seven custom local font families for authentic print typography. Integrated GSAP animation library via `@gsap/react` for timeline-based transitions and scroll effects. Implemented live time rendering with a React hooks-based Clock component and a CSS keyframe marquee banner with pause-on-hover. Structured the project with a composable component architecture separating layout wrappers, page sections, article blocks, and utility tools.
 
 ## Tech Stack
 
-- **Next.js** and **React** for component-based design
-- **TypeScript** for type-safe, maintainable code
-- **CSS Modules** and **TailwindCSS** for custom styling
+- **React 18** + **TypeScript** — component-based UI with strict type safety
+- **Vite 5** — fast dev server and optimised production build
+- **Tailwind CSS 3** — utility-first responsive styling
+- **GSAP 3** + **@gsap/react** — animation timelines
+- **react-icons** — scalable SVG icon set
+- **Custom Fonts** — OldLondon, TimesNewRoman, Canopee, EditorialNew, Helvetica, Arial, Impact
 
 ## Getting Started
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/TheCipher.git
-    cd TheCipher
-    ```
+```bash
+git clone https://github.com/yugalkaushik/thecipher.git
+cd thecipher
+npm install
+npm run dev
+```
 
-2. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+Open `http://localhost:5173` in your browser.
 
-3. **Run the Application**:
-    ```bash
-    npm run dev
-    ```
+## Scripts
 
-4. **Open in Browser**:
-   Visit `http://localhost:5173` to view the project locally.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Type-check and build for production |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint across all source files |
 
-## Contributing
-Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
