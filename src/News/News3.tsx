@@ -1,14 +1,14 @@
 const News3 = () => {
   return (
-    <div className=" flex flex-row gap-5 text-justify">
+    <div className="flex flex-col md:flex-row gap-5 text-justify">
       <div className=" flex-1 flex flex-col gap-2 ">
         <div>
-          <h1 className=" text-4xl">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
             Are we voting for the future of our country, or just focusing on our
             own Region's Interests?
           </h1>
         </div>
-        <div className="flex gap-3 text-sm ">
+        <div className="flex flex-col sm:flex-row gap-3 text-sm ">
           <div className=" flex-1 flex flex-col gap-1">
             <p>
               <span className="high">I</span>n India, voting often seems more
@@ -75,12 +75,12 @@ const News3 = () => {
           <img src="/IMG/crimeGIFS/a-5.gif" alt="news_img" />
         </div>
         <div>
-          <h1 className="text-3xl">
+          <h1 className="text-2xl sm:text-3xl">
             Is Regional Voting Contributing to the Increase in Crime and
             Violence Across the Nation?
           </h1>
         </div>
-        <div className="flex gap-3 text-sm">
+        <div className="flex flex-col sm:flex-row gap-3 text-sm">
           <div className=" flex-1 flex flex-col gap-1">
             <p>
               The rising crime rates in India have become a serious concern, and
