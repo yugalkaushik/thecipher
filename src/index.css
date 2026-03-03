@@ -5,30 +5,37 @@
 body {
   @apply bg-zinc-800;
 }
+
 @font-face {
   font-family: "OldLondon";
   src: url("./assets/fonts/OldLondon.ttf");
 }
+
 @font-face {
   font-family: "TimesNewRoman";
   src: url("./assets/fonts/times-new-roman.ttf");
 }
+
 @font-face {
   font-family: "Impact";
   src: url("./assets/fonts/impact.ttf");
 }
+
 @font-face {
   font-family: "Canopee";
   src: url("./assets/fonts/Canopee-regular.otf");
 }
+
 @font-face {
   font-family: "EditorialNew";
   src: url("./assets/fonts/PPEditorialNew-Regular-BF644b214ff145f.otf");
 }
+
 @font-face {
   font-family: "Helvetica";
   src: url("./assets/fonts/Helvetica.ttf");
 }
+
 @font-face {
   font-family: "Arial";
   src: url("./assets/fonts/ARIAL.TTF");
@@ -43,12 +50,24 @@ body {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  font-size: 90px;
+  font-size: 40px;
   border-top: 2px solid #1b1b1b;
   border-bottom: 2px solid #1b1b1b;
   margin-top: 20px;
 
   font-family: "TimesNewRoman";
+}
+
+@media (min-width: 640px) {
+  .marquee-container {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .marquee-container {
+    font-size: 90px;
+  }
 }
 
 .marquee {
@@ -72,6 +91,7 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -83,7 +103,7 @@ body {
   font-weight: bold;
   background: #222222;
   color: #d3cfc6;
-  @apply px-4 text-7xl font-bold font-TimesNewRoman;
+  @apply px-2 md:px-4 text-4xl md:text-5xl lg:text-7xl font-bold font-TimesNewRoman;
 }
 
 h1 {
