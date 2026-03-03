@@ -1,8 +1,8 @@
 const News2 = () => {
   return (
     <div className=" ">
-      <div className=" flex gap-2">
-        <div className=" basis-1/5 text-justify border-r-2 border-zinc-700 pr-2 flex flex-col gap-2">
+      <div className="flex flex-col md:flex-row gap-2">
+        <div className="w-full md:basis-1/5 text-justify border-b-2 md:border-b-0 md:border-r-2 border-zinc-700 pb-2 md:pb-0 md:pr-2 flex flex-col gap-2">
           <div>
             <img
               src="/IMG/crimeGIFS/b-1.gif"
@@ -11,7 +11,7 @@ const News2 = () => {
             />
           </div>
           <div>
-            <h1 className="text-3xl">
+            <h1 className="text-xl md:text-2xl lg:text-3xl">
               Is the Government Really Making Our Safety a True Priority?
             </h1>
           </div>
@@ -39,10 +39,10 @@ const News2 = () => {
             </p>
           </div>
         </div>
-        <div className=" basis-4/5 flex gap-5">
-          <div className=" basis-3/5 flex flex-col gap-3">
+        <div className="w-full md:basis-4/5 flex flex-col md:flex-row gap-3 md:gap-5">
+          <div className="w-full md:basis-3/5 flex flex-col gap-3">
             <div>
-              <h1 className=" text-4xl">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                 Why Is the Government Ignoring National Crime Rates for Regional
                 Issues?
               </h1>
@@ -149,7 +149,7 @@ const News2 = () => {
               </div>
             </div>
           </div>
-          <div className=" text-justify basis-2/5 border-2 border-zinc-700 p-2 flex flex-col gap-4">
+          <div className="w-full md:basis-2/5 text-justify border-2 border-zinc-700 p-2 flex flex-col gap-4">
             <div>
               <img
                 src="/IMG/crimeGIFS/pm.gif"
