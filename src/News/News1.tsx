@@ -1,13 +1,13 @@
 const News1 = () => {
   return (
-    <div className=" flex flex-row justify-between gap-5 my-8  ">
-      <div className=" basis-1/2 ">
-        <div className=" pb-3">
-          <h1 className=" font-TimesNewRoman font-extrabold text-5xl">
+    <div className="flex flex-col lg:flex-row justify-between gap-5 my-4 md:my-8">
+      <div className="w-full lg:basis-1/2">
+        <div className="pb-3">
+          <h1 className="font-TimesNewRoman font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             What’s Driving the Crime Rise in India? Key Factors Explored{" "}
           </h1>
         </div>
-        <div className=" flex flex-row gap-3 text-justify text-sm">
+        <div className="flex flex-col md:flex-row gap-3 text-justify text-sm">
           <div className=" flex-1 flex flex-col gap-1  ">
             <div className="flex flex-col gap-0.5 ">
               <p>
@@ -144,12 +144,12 @@ const News1 = () => {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col gap-4 basis-1/2 ">
-        <img src="/IMG/crimeGIFS/a-3.gif" className="h-[500px] object-cover" />
-        <div className=" flex gap-4 text-justify">
-          <div className=" flex-1 flex flex-col gap-1.5">
+      <div className="flex flex-col gap-4 w-full lg:basis-1/2">
+        <img src="/IMG/crimeGIFS/a-3.gif" className="h-48 sm:h-64 md:h-80 lg:h-[500px] w-full object-cover" />
+        <div className="flex flex-col sm:flex-row gap-4 text-justify">
+          <div className="flex-1 flex flex-col gap-1.5">
             <div>
-              <h1 className="text-3xl">
+              <h1 className="text-xl md:text-2xl lg:text-3xl">
                 Coming Together to Fight Crime and Keep Everyone Safe Always
                 Here
               </h1>
@@ -181,7 +181,7 @@ const News1 = () => {
               </p>
             </div>
           </div>
-          <div className="flex-1 flex flex-col gap-0.5">
+          <div className="flex-1 flex flex-col gap-0.5 text-sm text-justify">
             <p>
               Crimes and rape in India are serious problems that need urgent
               help. Many women and kids face violence, causing fear in their
