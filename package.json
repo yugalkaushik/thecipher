@@ -1,5 +1,6 @@
 {
   "name": "thedaily-crimes",
+  "description": "Newspaper-style editorial web app built with React 18, TypeScript, Vite, and Tailwind CSS.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
