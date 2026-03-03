@@ -1,4 +1,5 @@
 {
+  // TypeScript config for Vite config and Node tooling
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2023"],
