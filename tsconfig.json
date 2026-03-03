@@ -1,4 +1,5 @@
 {
+  // Project-wide TypeScript config — references app and node sub-configs
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
